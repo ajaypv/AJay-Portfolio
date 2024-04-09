@@ -1,12 +1,12 @@
 +++
-title = 'Blog1'
-date = 2024-04-05T12:42:42+05:30
+title = 'Bog4'
+date = 2024-04-09T18:04:10+05:30
+draft =  false
 author = "AJay PV"
-categories = ["Web Development"]
-role= "Dev"
+categories = ["Programming"]
 photo = "images/aj.jpg"
-
 +++
+
 
 # Rust Programming Language
 

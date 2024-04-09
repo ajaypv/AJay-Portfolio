@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-05T15:08:38+05:30</lastmod>
+    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/bog5/</loc>
+    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/programming/</loc>
+    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/bog4/</loc>
+    <lastmod>2024-04-09T18:04:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/bog3/</loc>
+    <lastmod>2024-04-09T18:03:37+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/aerox/</loc>
     <lastmod>2024-04-05T15:08:38+05:30</lastmod>
@@ -14,13 +32,11 @@
     <loc>http://localhost:1313/blogs/blog2/</loc>
     <lastmod>2024-04-05T12:52:34+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>http://localhost:1313/categories/web-development/</loc>
     <lastmod>2024-04-05T12:52:34+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/blog1/</loc>
     <lastmod>2024-04-05T12:42:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

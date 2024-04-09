@@ -1,9 +1,12 @@
 +++
 title = 'Blog2'
 date = 2024-04-05T12:52:34+05:30
-
+author = "AJay PV"
+categories = ["Web Development"]
+role= "Dev"
+photo = "images/aj.jpg"
 +++
-content = '''
+
 Cloud computing is a revolutionary technology that has transformed the way businesses operate. It allows organizations to access and use computing resources, such as servers, storage, and databases, over the internet on a pay-as-you-go basis.
 
 One of the key benefits of cloud computing is its scalability. With cloud services, businesses can easily scale up or down their resources based on their needs, without the need for upfront investment in hardware or infrastructure.
@@ -15,4 +18,3 @@ Cloud computing also offers improved security and reliability. Cloud service pro
 Furthermore, cloud computing promotes cost savings. By eliminating the need for on-premises infrastructure and maintenance, businesses can significantly reduce their IT costs. They only pay for the resources they use, making it a cost-effective solution for businesses of all sizes.
 
 In conclusion, cloud computing is a game-changer in the world of technology. Its scalability, flexibility, security, reliability, and cost savings make it an attractive option for businesses looking to optimize their operations and drive innovation.
-'''

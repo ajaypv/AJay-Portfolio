@@ -1,11 +1,10 @@
 +++
-title = 'Blog1'
-date = 2024-04-05T12:42:42+05:30
+title = 'Bog3'
+date = 2024-04-09T18:03:37+05:30
+draft = false
 author = "AJay PV"
-categories = ["Web Development"]
-role= "Dev"
+categories = ["Programming"]
 photo = "images/aj.jpg"
-
 +++
 
 # Rust Programming Language
@@ -49,4 +48,3 @@ To get started with Rust, you can follow these steps:
 Rust is a powerful programming language that combines the performance of low-level languages with the safety and expressiveness of high-level languages. It is gaining popularity among developers for its unique features and strong community support.
 
 If you're interested in learning more about Rust, I highly recommend checking out the official Rust documentation and trying out some Rust projects. Happy coding!
-'''

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {{ $styles := resources.Get "css/blogs.css" | resources.PostCSS }}
-        <link rel="stylesheet" href="{{ $styles.Permalink }}">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/blogs.css">
        
        
     </head>
@@ -29,8 +29,46 @@
             <div class="lg:pr-4">
               <div class="lg:max-w-lg">
                 <p class="text-base font-semibold leading-7 text-indigo-600">Projects</p>
-                <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .Title }}</h1>
-                <p class="mt-6 text-xl leading-8 text-gray-700">{{ .Content }}</p>
+                <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Bog5</h1>
+                <p class="mt-6 text-xl leading-8 text-gray-700"><h1 id="rust-programming-language">Rust Programming Language</h1>
+<p>Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.</p>
+<h2 id="features-of-rust">Features of Rust</h2>
+<ul>
+<li>
+<p><strong>Memory Safety</strong>: Rust&rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.</p>
+</li>
+<li>
+<p><strong>Concurrency</strong>: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</p>
+</li>
+<li>
+<p><strong>Performance</strong>: Rust compiles to highly optimized machine code, resulting in fast and efficient programs.</p>
+</li>
+<li>
+<p><strong>Cargo</strong>: Rust&rsquo;s package manager, Cargo, makes it simple to manage dependencies, build projects, and run tests.</p>
+</li>
+</ul>
+<h2 id="getting-started-with-rust">Getting Started with Rust</h2>
+<p>To get started with Rust, you can follow these steps:</p>
+<ol>
+<li>
+<p>Install Rust by visiting the official website and following the installation instructions for your operating system.</p>
+</li>
+<li>
+<p>Set up a new Rust project using Cargo by running the following command in your terminal:</p>
+<pre tabindex="0"><code>cargo new my_project
+</code></pre></li>
+<li>
+<p>Navigate to the project directory:</p>
+<pre tabindex="0"><code>cd my_project
+</code></pre></li>
+<li>
+<p>Open the project in your favorite code editor and start writing Rust code!</p>
+</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>Rust is a powerful programming language that combines the performance of low-level languages with the safety and expressiveness of high-level languages. It is gaining popularity among developers for its unique features and strong community support.</p>
+<p>If you&rsquo;re interested in learning more about Rust, I highly recommend checking out the official Rust documentation and trying out some Rust projects. Happy coding!</p>
+</p>
               </div>
             </div>
           </div>
