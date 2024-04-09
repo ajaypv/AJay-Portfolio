@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ $css := resources.Get "css/blogs.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $css.Permalink }}">
+    </head>
+<body>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</body>
+</html>

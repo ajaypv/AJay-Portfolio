@@ -1,0 +1,5 @@
+{{ range .Pages }}
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p class="content-preview">{{ .Content | truncate 50 }}</p>
+    
+{{ end }}

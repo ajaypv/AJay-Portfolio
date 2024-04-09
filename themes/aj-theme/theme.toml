@@ -1,0 +1,34 @@
+# theme.toml
+
+# Set the name of your theme
+name = "aj-theme"
+
+# Set the version of your theme
+version = "1.0.0"
+
+# Set the license for your theme
+license = "MIT"
+
+# Set the description of your theme
+description = "A minimal Hugo theme"
+
+# Set the homepage URL for your theme
+homepage = "https://github.com/ajay/hugo-theme"
+
+# Set the author information
+[author]
+name = "Your Name"
+email = "your@email.com"
+website = "https://yourwebsite.com"
+
+# Set the required Hugo version
+[hugo]
+min_version = "0.88.0"
+
+# Set the theme's features and options
+[features]
+# Add your theme's features here
+
+# Set the theme's options
+[options]
+# Add your theme's options here

@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+enableGitInfo=false
+
+custom_css = ["css/style.css"]
+custom_js = ["js/custom.js"]
+
+[build]
+writeStats = true
+
+[outputFormats.CSS]
+mediatype = "text/css"
+isPlainText = true
+notAlternative = true
+
+[mediaTypes."text/css"]
+suffixes = ["css"]
+
+[outputs]
+home = ["HTML", "CSS"]

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Welcome to my site!</h1>
+    {{ partial "header.html" . }}
+<!-- Rest of your website's content -->
+    {{ range .Pages }}
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ end }}
+    
+</body>
+</html>
