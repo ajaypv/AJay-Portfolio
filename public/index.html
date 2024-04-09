@@ -2,27 +2,31 @@
 <html>
     <head>
 	<meta name="generator" content="Hugo 0.124.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+
         
-<link rel="stylesheet" href="http://localhost:1313/css/styles.scss">
-      
+        <link rel="stylesheet" href="http://localhost:1313/css/styles.scss">
         
         <link rel="stylesheet" href="http://localhost:1313/css/index.min.css">
         
-<link rel="stylesheet" href="http://localhost:1313/css/navbar.min.c52acf9b15d71946fc6428b2f76f6239ef4bff3babb6809cbf3bbd4341230363.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/navbar.min.a2ed222f5a01ecfda60bcf1819534cebb9bba21cecad61f9a99ff766f5316ed1.css">
+
        
     </head>
-<body>
+<body id="bodyclick">
     <div class="bg-white">
-    <header class="absolute inset-x-0 top-0 z-50">
+      
+    
+<header class="absolute inset-x-0 top-0 z-50">
   <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
-        <span class="sr-only">AJays Notaion</span>
+        <span class="sr-only">Your Company</span>
         <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
       </a>
     </div>
     <div class="flex lg:hidden">
-      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="toggle-menu">
         <span class="sr-only">Open main menu</span>
         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -30,18 +34,26 @@
       </button>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300">Articles</a>
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300">Projects</a>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300">About Me </a>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300" >Projects</a>
       <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300">Blogs</a>
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300">About</a>
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300">Tools</a>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300">Contact</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Resume <span aria-hidden="true">&rarr;</span></a>
+      <button href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-700 focus:outline-none transition-colors duration-300">
+        Resume<span aria-hidden="true">&rarr;</span>
+      </button>
     </div>
   </nav>
+
+
+
+
+
+
   
-  <div class="lg:hidden" role="dialog" aria-modal="true">
+  <div class="lg:hidden hidden" role="dialog" aria-modal="true" id="mobile-menu">
     
     <div class="fixed inset-0 z-50"></div>
     <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -50,7 +62,7 @@
           <span class="sr-only">Your Company</span>
           <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
         </a>
-        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" id="mvclosebutton">
           <span class="sr-only">Close menu</span>
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -66,24 +78,22 @@
             <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
           </div>
           <div class="py-6">
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+            <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Resume</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </header>
-
-
  
     <div class="relative isolate px-6 pt-14 lg:px-8">
-        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+        <div class="absolute inset-x-0 -top-10 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
           <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
         </div>
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div class="hidden sm:mb-8 sm:flex sm:justify-center">
             <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+              Looking for job opportunities in  oracle? <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span> Referral <span aria-hidden="true">&rarr;</span></a>
             </div>
           </div>
           <div class="text-center">
@@ -100,71 +110,6 @@
         </div>
       </div>
     </div>
-
-    <div class="overflow-hidden bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-        <div class="lg:pr-8 lg:pt-4">
-          <div class="lg:max-w-lg">
-            <h2 class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
-                  </svg>
-                  Push to deploy.
-                </dt>
-                <dd class="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
-              </div>
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
-                  </svg>
-                  SSL certificates.
-                </dt>
-                <dd class="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</dd>
-              </div>
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
-                    <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
-                  </svg>
-                  Database backups.
-                </dt>
-                <dd class="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</dd>
-              </div>
-            </dl>
-          </div>
-        </div>
-        <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
-      </div>
-    </div>
-  </div>
-  
-  
-<blockquote class="text-2xl font-semibold italic text-center text-slate-900">
-    When you look
-    <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
-      <span class="relative text-white">annoyed</span>
-    </span>
-    all the time, people think that you're busy.
-  </blockquote>
-
-  <div class="max-w-lg mx-auto p-8">
-    <details class="open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" open>
-      <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
-        Why do they call it Ovaltine?
-      </summary>
-      <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
-        <p>The mug is round. The jar is round. They should call it Roundtine.</p>
-      </div>
-    </details>
-  </div>
     <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
     <div class="absolute inset-0 -z-10 overflow-hidden">
       <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
@@ -183,19 +128,23 @@
       <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
         <div class="lg:pr-4">
           <div class="lg:max-w-lg">
-            <p class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-            <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
-            <p class="mt-6 text-xl leading-8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.</p>
+            <p class="text-base font-semibold leading-7 text-indigo-600">Projects</p>
+            <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Open Dots</h1>
+            <p class="mt-6 text-xl leading-8 text-gray-700">Open Dots utilizes cutting-edge tech like React, WebRTC, and Web3 to foster global connections. Through machine learning, it matches users based on interests, combating loneliness by facilitating meaningful interactions</p>
           </div>
         </div>
       </div>
+      
       <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-        <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="">
-      </div>
+        <iframe loading="lazy" class="w-[620px] h-[350px] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10"  src="https://www.canva.com/design/DAFE3DzJyVs/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+    </div>
+    
+    
       <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
         <div class="lg:pr-4">
           <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-            <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
+            <p>Open Dots shatters the limitations of traditional social networks. Forget connections based on who you already know - here, shared interests spark friendships and fuel collaboration. This vibrant global community fosters meaningful interactions with like-minded individuals, opening doors to a world of possibilities.</p>
             <ul role="list" class="mt-8 space-y-8 text-gray-600">
               <li class="flex gap-x-3">
                 <svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -226,6 +175,71 @@
     </div>
   </div>
   
+    <div class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div class="lg:pr-8 lg:pt-4">
+          <div class="lg:max-w-lg">
+            <h2 class="text-base font-semibold leading-7 text-indigo-600">About Me</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Driving Seamless Development Processes for Project Excellence</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">I'm Ajay PV, a recent graduate in Computer Science & Engineering from New Horizon College of Engineering, Bangalore, Karnataka. With a strong foundation in software development and a passion for innovation, I specialize in full-stack development, proficient in a wide array of technologies including Python, Java, React, and more. I'm dedicated to leveraging my skills and knowledge to drive impactful solutions and contribute to exciting projects in the tech industry.</p>
+            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M12 2L1 7l11 5 10-5-11-5zM2 10.53l10 4.47 9.99-4.47L12 6.06 2 10.53zm0 8.94V17.5l10 4.47 9.99-4.47v2.97l-10 4.47-9.99-4.47z"/>
+                  </svg>
+                  Push to deploy.
+                </dt>
+                <dd class="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M12 2L1 7l11 5 10-5-11-5zm-1 8.35L2.5 8.5l8.5 3.85v6.3l-3.17 1.45v-5.4l-3.17 1.45V7.05l3.17 1.45v5.4l5.33-2.43v-6.3zm1 8.3l8.5-3.85-8.5-3.85v2.55l5.33 2.43v5.4l3.17-1.45v-5.4l3.17 1.45v5.4l-3.17-1.45v-2.55z"/>
+                  </svg>
+                  SSL certificates.
+                </dt>
+                <dd class="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M16.37 9.25l-1.87 1.87L12 9.49l-2.5 2.5-1.4-1.4 4.9-4.89 4.9 4.9zM7.46 15.38l1.4 1.4L12 14.51l2.5 2.5 1.4-1.4-4.9-4.9-4.9 4.9z"/>
+                    <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                  </svg>
+                  Database backups.
+                </dt>
+                <dd class="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <img src="https://ajaypv.me/assets/background.087589e6.jpg" alt="Product screenshot" class="w-[35rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] md:-ml-4 lg:-ml-0"  >
+      </div>
+    </div>
+  </div>
+  
+  
+<blockquote class="text-2xl font-semibold italic text-center text-slate-900">
+    When you look
+    <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+      <span class="relative text-white">annoyed</span>
+    </span>
+    all the time, people think that you're busy.
+  </blockquote>
+
+  <div class="max-w-lg mx-auto p-8">
+    <details class="open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" open>
+      <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
+        Why do they call it Ovaltine?
+      </summary>
+      <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+        <p>The mug is round. The jar is round. They should call it Roundtine.</p>
+      </div>
+    </details>
+  </div>
+    
 
 
   <div class="relative overflow-hidden bg-white">
@@ -523,28 +537,9 @@
       </div>
     </li>
   </ul>
-  <div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
-    <div class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-      <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
-    </div>
-    <div class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-      <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
-    </div>
-    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
-      <p class="text-sm leading-6 text-gray-900">
-        <strong class="font-semibold">GeneriCon 2023</strong><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>Join us in Denver from June 7 – 9 to see what’s coming next.
-      </p>
-      <a href="#" class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Register now <span aria-hidden="true">&rarr;</span></a>
-    </div>
-    <div class="flex flex-1 justify-end">
-      <button type="button" class="-m-3 p-3 focus-visible:outline-offset-[-4px]">
-        <span class="sr-only">Dismiss</span>
-        <svg class="h-5 w-5 text-gray-900" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
-        </svg>
-      </button>
-    </div>
-  </div>
+
+
+
 
   <div class="relative">
     <button type="button" class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
@@ -1032,5 +1027,7 @@
 
 </div>
     
+
+<script src="http://localhost:1313/js/main.min.js"></script>
 </body>
 </html>
