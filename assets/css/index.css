@@ -1,0 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+    .relative {
+        width: 100%;
+        left: 0;
+    }
+}

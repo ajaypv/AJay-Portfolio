@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/blogs/blog1/</guid>
       <description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.&#xA;Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.&#xA;Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description>
     </item>
+    <item>
+      <title>Blog6</title>
+      <link>http://localhost:1313/blogs/blog6/</link>
+      <pubDate>Fri, 05 Apr 2024 12:42:42 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/blog6/</guid>
+      <description>Rust Control Flow: if, while and for loop In this blog post, we will discuss about the control flow in Rust programming language, specifically if, while and for loop.&#xA;If Statement In Rust, if is a keyword that allows you to branch your code based on conditions.&#xA;let number = 7; if number &amp;lt; 5 { println!(&amp;#34;condition was true&amp;#34;); } else { println!(&amp;#34;condition was false&amp;#34;); } </description>
+    </item>
   </channel>
 </rss>

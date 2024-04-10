@@ -2,7 +2,9 @@
 <html>
     <head>
 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         {{ $styles := resources.Get "css/styles.scss" | resources.PostCSS  }}
         <link rel="stylesheet" href="{{ $styles.Permalink }}">
         {{ $css := resources.Get "css/index.css" | resources.Minify }}
@@ -12,7 +14,7 @@
 
        
     </head>
-<body id="bodyclick">
+<body>
     <div class="bg-white">
       
     {{ partial "header.html" . }}
@@ -41,10 +43,9 @@
    
     {{ partial "aboutme.html" . }}
     {{ partial "pojects.html" . }}
-    {{ partial "headlines.html" . }}
+
+    {{ partial "certificates.html" . }}
     {{ partial "blogs.html" . }}
-    {{ partial "content.html" . }}
-   
     {{ partial "footer.html" . }}
 
 </div>
