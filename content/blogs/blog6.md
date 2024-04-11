@@ -5,8 +5,8 @@ author = "AJay PV"
 categories = ["Web Development"]
 role= "Dev"
 photo = "images/aj.jpg"
-+++
 
++++
 
 # Rust Control Flow: if, while and for loop
 
@@ -20,19 +20,8 @@ In Rust, `if` is a keyword that allows you to branch your code based on conditio
 let number = 7;
 
 if number < 5 {
-    println!("condition was true");
+  println!("condition was true");
 } else {
-    println!("condition was false");
+  println!("condition was false");
 }
 
-```
-## While Loop
-
-In Rust, the `while` loop allows you to repeatedly execute a block of code as long as a certain condition is true.
-```rust
-let mut counter = 0;
-
-while counter < 5 {
-    println!("The counter is: {}", counter);
-    counter += 1;
-}
