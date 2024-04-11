@@ -659,6 +659,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-9 {
+  margin-top: 2.25rem;
+}
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
@@ -734,9 +737,6 @@ video {
 .h-64 {
   height: 16rem;
 }
-.h-8 {
-  height: 2rem;
-}
 .h-80 {
   height: 20rem;
 }
@@ -802,9 +802,6 @@ video {
 }
 .w-\[72\.1875rem\] {
   width: 72.1875rem;
-}
-.w-auto {
-  width: auto;
 }
 .w-full {
   width: 100%;
