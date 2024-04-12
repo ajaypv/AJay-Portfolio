@@ -4,7 +4,7 @@ date = 2024-04-09T18:04:16+05:30
 draft =  false
 author= "AJay PV"
 categories = ["Programming"]
-photo = "images/aj.jpg"
+photo = "images/aj.webp"
 +++
 
 

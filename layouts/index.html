@@ -96,6 +96,6 @@
 
     
 {{ $js := resources.Get "js/main.js" | resources.ExecuteAsTemplate "js/main.js" . | resources.Minify }}
-<script src="{{ $js.Permalink }}"></script>
+<script type="module" src="{{ $js.Permalink }}"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ date = 2024-04-05T12:42:42+05:30
 author = "AJay PV"
 categories = ["Web Development"]
 role= "Dev"
-photo = "images/aj.jpg"
+photo = "images/aj.webp"
 
 +++
 
