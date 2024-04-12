@@ -5,6 +5,7 @@ window.onload = function() {
     const mobileMenuIcon = document.getElementById("mobile-menu");
     const mvclosebutton = document.getElementById("mvclosebutton");
     const showIframeButton = document.getElementById("myImage");
+    const navLinks = document.querySelectorAll('nav a');
 
     showIframeButton.addEventListener("click", showIframe);
 
@@ -19,6 +20,19 @@ window.onload = function() {
             mobileMenuIcon.classList.toggle("hidden");
         });
     }
+
+    
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (event) => {
+        console.log("Nav link clicked");
+        mobileMenuIcon.classList.toggle("hidden");
+
+        event.preventDefault(); // Prevent default anchor link behavior
+        const targetSection = document.getElementById(link.getAttribute('href').slice(1)); // Get target section ID
+        targetSection.scrollIntoView({ behavior: 'smooth' }); // Scroll smoothly to the section
+      });
+    });
 
     function showIframe() {
         console.log("Show iframe clicked");
