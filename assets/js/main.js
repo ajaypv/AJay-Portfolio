@@ -48,7 +48,19 @@ window.onload = function() {
         iframe.style.display = 'block';
         iframe2.style.display = 'block';
     }
+
+    function showImages(){
+        var image1 =  document.getElementById('myImage');
+        var image2 =  document.getElementById('myImage2');
+
+        image2.src = "images/aerox.webp";
+        image1.src = "images/Open-Dots.webp";
+
+        image1.style.display = 'block';
+        image2.style.display = 'block';
+    }
     setTimeout(showIframe, 5000);
+    setTimeout(showImages, 1500);
 };
 
 
