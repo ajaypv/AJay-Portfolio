@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on </title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 Apr 2024 15:08:38 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Aerox</title>
-      <link>http://localhost:1313/projects/aerox/</link>
-      <pubDate>Fri, 05 Apr 2024 15:08:38 +0530</pubDate>
-      <guid>http://localhost:1313/projects/aerox/</guid>
-      <description>description: &amp;ldquo;Aerox is a futuristic racing game where players pilot high-speed hovercrafts through challenging tracks. With stunning graphics and immersive gameplay, Aerox offers a thrilling racing experience like no other. Customize your hovercraft, compete against AI opponents, and challenge your friends in multiplayer races. Are you ready to take on the ultimate speed challenge in Aerox?&amp;rdquo;&#xA;Features Realistic physics engine for authentic hovercraft handling Multiple game modes, including time trials, championships, and multiplayer races Extensive customization options for hovercrafts, allowing players to personalize their vehicles Dynamic and visually stunning tracks set in futuristic environments AI opponents with varying difficulty levels to provide challenging gameplay Leaderboards and achievements to track player progress and compete with friends Regular updates and new content additions to keep the game fresh and exciting Technology Stack Game Engine: Unity Graphics: Unreal Engine Networking: Photon Unity Networking UI/UX: Unity UI Sound Effects: FMOD Studio Platforms: Windows, macOS, PlayStation, Xbox, Nintendo Switch Team We are a passionate team of game developers dedicated to creating an unforgettable racing experience in Aerox.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on</title><link>https://ajaysnotion.netlify.app/projects/</link><description>Recent content in Projects on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 05 Apr 2024 15:08:38 +0530</lastBuildDate><atom:link href="https://ajaysnotion.netlify.app/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Aerox</title><link>https://ajaysnotion.netlify.app/projects/aerox/</link><pubDate>Fri, 05 Apr 2024 15:08:38 +0530</pubDate><guid>https://ajaysnotion.netlify.app/projects/aerox/</guid><description>description: &amp;ldquo;Aerox is a futuristic racing game where players pilot high-speed hovercrafts through challenging tracks. With stunning graphics and immersive gameplay, Aerox offers a thrilling racing experience like no other. Customize your hovercraft, compete against AI opponents, and challenge your friends in multiplayer races. Are you ready to take on the ultimate speed challenge in Aerox?&amp;rdquo;
+Features Realistic physics engine for authentic hovercraft handling Multiple game modes, including time trials, championships, and multiplayer races Extensive customization options for hovercrafts, allowing players to personalize their vehicles Dynamic and visually stunning tracks set in futuristic environments AI opponents with varying difficulty levels to provide challenging gameplay Leaderboards and achievements to track player progress and compete with friends Regular updates and new content additions to keep the game fresh and exciting Technology Stack Game Engine: Unity Graphics: Unreal Engine Networking: Photon Unity Networking UI/UX: Unity UI Sound Effects: FMOD Studio Platforms: Windows, macOS, PlayStation, Xbox, Nintendo Switch Team We are a passionate team of game developers dedicated to creating an unforgettable racing experience in Aerox.</description></item></channel></rss>

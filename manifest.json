@@ -1,0 +1,20 @@
+{
+    "name": "AJ PWA",
+    "short_name": "AJ PWA",
+    "icons": [
+      {
+        "src": "images/aj.webp",
+        "sizes": "192x192",
+        "type": "image/webp"
+      },
+      {
+        "src": "images/aj.webp",
+        "sizes": "512x512",
+        "type": "image/webp"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000"
+  }
+  
