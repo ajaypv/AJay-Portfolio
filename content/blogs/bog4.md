@@ -1,10 +1,10 @@
 +++
-title = 'Bog4'
+title = 'RUST level-0'
 date = 2024-04-09T18:04:10+05:30
 draft =  false
 author = "AJay PV"
 categories = ["Programming"]
-photo = "images/aj.jpg"
+photo = "images/aj.webp"
 +++
 
 
