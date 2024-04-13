@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
 
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
       <meta name="description" content="AJay PV portfolio website">
       <meta name="keywords" content="your, keywords, go, here">
       <meta name="description" content="Explore Ajay PV's portfolio showcasing innovative software development projects and expertise in full-stack development.">
@@ -38,9 +40,11 @@
 
         {{ $styles := resources.Get "css/styles.scss" | resources.PostCSS  }}
         <link rel="stylesheet" href="{{ $styles.Permalink }}">
-        {{ $css := resources.Get "css/index.css" | resources.Minify }}
-        <link rel="stylesheet" href="{{ $css.Permalink }}">
-        {{ $styles := resources.Get "css/navbar.css" | resources.PostCSS | minify | fingerprint }}
+        <!-- {{ $css := resources.Get "css/index.css" | resources.Minify }}
+        <link rel="stylesheet" href="{{ $css.Permalink }}"> -->
+        <!-- {{ $styles := resources.Get "css/navbar.css" | resources.PostCSS | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $styles.Permalink }}"> -->
+        {{ $styles := resources.Get "css/index.css" | resources.PostCSS | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
        
@@ -65,7 +69,7 @@
             <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
               <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Looking for job opportunities in  oracle? <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span> Referral <span aria-hidden="true">&rarr;</span></a>
+                  Looking for job opportunities in  oracle? <a href="https://careers.oracle.com/jobs/#en/sites/jobsearch" target="_blank" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span> Referral <span aria-hidden="true">&rarr;</span></a>
                 </div>
               </div>
 
