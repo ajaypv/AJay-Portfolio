@@ -1,14 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on</title><link>https://ajaysnotion.netlify.app/blogs/</link><description>Recent content in Blogs on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 10 Apr 2024 12:35:47 +0530</lastBuildDate><atom:link href="https://ajaysnotion.netlify.app/blogs/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog7</title><link>https://ajaysnotion.netlify.app/blogs/blog7/</link><pubDate>Wed, 10 Apr 2024 12:35:47 +0530</pubDate><guid>https://ajaysnotion.netlify.app/blogs/blog7/</guid><description>Projects
-Open Dots shatters the limitations of traditional social networks. Forget connections based on who you already know - here, shared interests spark friendships and fuel collaboration. This vibrant global community fosters meaningful interactions with like-minded individuals, opening doors to a world of possibilities.
-Push to deploy. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. SSL certificates. Anim aute id magna aliqua ad ad non deserunt sunt.</description></item><item><title>Bog5</title><link>https://ajaysnotion.netlify.app/blogs/bog5/</link><pubDate>Tue, 09 Apr 2024 18:04:16 +0530</pubDate><guid>https://ajaysnotion.netlify.app/blogs/bog5/</guid><description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.
-Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.
-Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description></item><item><title>Bog4</title><link>https://ajaysnotion.netlify.app/blogs/bog4/</link><pubDate>Tue, 09 Apr 2024 18:04:10 +0530</pubDate><guid>https://ajaysnotion.netlify.app/blogs/bog4/</guid><description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.
-Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.
-Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description></item><item><title>Bog3</title><link>https://ajaysnotion.netlify.app/blogs/bog3/</link><pubDate>Tue, 09 Apr 2024 18:03:37 +0530</pubDate><guid>https://ajaysnotion.netlify.app/blogs/bog3/</guid><description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.
-Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.
-Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description></item><item><title>Blog2</title><link>https://ajaysnotion.netlify.app/blogs/blog2/</link><pubDate>Fri, 05 Apr 2024 12:52:34 +0530</pubDate><guid>https://ajaysnotion.netlify.app/blogs/blog2/</guid><description>Cloud computing is a revolutionary technology that has transformed the way businesses operate. It allows organizations to access and use computing resources, such as servers, storage, and databases, over the internet on a pay-as-you-go basis.
-One of the key benefits of cloud computing is its scalability. With cloud services, businesses can easily scale up or down their resources based on their needs, without the need for upfront investment in hardware or infrastructure.</description></item><item><title>Blog1</title><link>https://ajaysnotion.netlify.app/blogs/blog1/</link><pubDate>Fri, 05 Apr 2024 12:42:42 +0530</pubDate><guid>https://ajaysnotion.netlify.app/blogs/blog1/</guid><description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.
-Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.
-Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description></item><item><title>Blog6</title><link>https://ajaysnotion.netlify.app/blogs/blog6/</link><pubDate>Fri, 05 Apr 2024 12:42:42 +0530</pubDate><guid>https://ajaysnotion.netlify.app/blogs/blog6/</guid><description>Rust Control Flow: if, while and for loop In this blog post, we will discuss about the control flow in Rust programming language, specifically if, while and for loop.
-If Statement In Rust, if is a keyword that allows you to branch your code based on conditions.
-let number = 7; if number &amp;lt; 5 { println!(&amp;#34;condition was true&amp;#34;); } else { println!(&amp;#34;condition was false&amp;#34;); }</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on </title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Apr 2024 12:35:47 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog7</title>
+      <link>http://localhost:1313/blogs/blog7/</link>
+      <pubDate>Wed, 10 Apr 2024 12:35:47 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/blog7/</guid>
+      <description>Projects&#xA;Open Dots shatters the limitations of traditional social networks. Forget connections based on who you already know - here, shared interests spark friendships and fuel collaboration. This vibrant global community fosters meaningful interactions with like-minded individuals, opening doors to a world of possibilities.&#xA;Push to deploy. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. SSL certificates. Anim aute id magna aliqua ad ad non deserunt sunt.</description>
+    </item>
+    <item>
+      <title>Bog5</title>
+      <link>http://localhost:1313/blogs/bog5/</link>
+      <pubDate>Tue, 09 Apr 2024 18:04:16 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/bog5/</guid>
+      <description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.&#xA;Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.&#xA;Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description>
+    </item>
+    <item>
+      <title>Bog4</title>
+      <link>http://localhost:1313/blogs/bog4/</link>
+      <pubDate>Tue, 09 Apr 2024 18:04:10 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/bog4/</guid>
+      <description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.&#xA;Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.&#xA;Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description>
+    </item>
+    <item>
+      <title>Bog3</title>
+      <link>http://localhost:1313/blogs/bog3/</link>
+      <pubDate>Tue, 09 Apr 2024 18:03:37 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/bog3/</guid>
+      <description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.&#xA;Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.&#xA;Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description>
+    </item>
+    <item>
+      <title>Blog2</title>
+      <link>http://localhost:1313/blogs/blog2/</link>
+      <pubDate>Fri, 05 Apr 2024 12:52:34 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/blog2/</guid>
+      <description>Cloud computing is a revolutionary technology that has transformed the way businesses operate. It allows organizations to access and use computing resources, such as servers, storage, and databases, over the internet on a pay-as-you-go basis.&#xA;One of the key benefits of cloud computing is its scalability. With cloud services, businesses can easily scale up or down their resources based on their needs, without the need for upfront investment in hardware or infrastructure.</description>
+    </item>
+    <item>
+      <title>Blog1</title>
+      <link>http://localhost:1313/blogs/blog1/</link>
+      <pubDate>Fri, 05 Apr 2024 12:42:42 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/blog1/</guid>
+      <description>Rust Programming Language Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.&#xA;Features of Rust Memory Safety: Rust&amp;rsquo;s ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.&#xA;Concurrency: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.</description>
+    </item>
+    <item>
+      <title>Blog6</title>
+      <link>http://localhost:1313/blogs/blog6/</link>
+      <pubDate>Fri, 05 Apr 2024 12:42:42 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/blog6/</guid>
+      <description>Rust Control Flow: if, while and for loop In this blog post, we will discuss about the control flow in Rust programming language, specifically if, while and for loop.&#xA;If Statement In Rust, if is a keyword that allows you to branch your code based on conditions.&#xA;let number = 7; if number &amp;lt; 5 { println!(&amp;#34;condition was true&amp;#34;); } else { println!(&amp;#34;condition was false&amp;#34;); } </description>
+    </item>
+  </channel>
+</rss>
