@@ -1,145 +1,52 @@
----
-title: "Markdown Syntax"
-date: 2021-04-03T23:29:21+05:30
-draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
-tags:
-  - Markdown syntax
-  - Sample
-  - example
-image: /images/aj.webp
-description: ""
-toc:
----
++++
+title = 'Rust-basics'
+date = 2024-04-05T12:42:42+05:30
+author = "AJay PV"
+categories = ["programming","Rust"]
+role= "Dev"
+photo = "images/aj.jpg"
 
-## Paragraph
++++
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+# Rust Programming Language
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Blockquotes
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+Rust is a systems programming language that focuses on safety, speed, and concurrency. It is designed to be memory-safe and thread-safe while still providing high performance. Rust achieves this by enforcing strict compile-time checks and ownership rules.
 
-### Blockquote without attribution
+## Features of Rust
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use _Markdown syntax_ within a blockquote.
+- **Memory Safety**: Rust's ownership system ensures memory safety by preventing common programming errors such as null pointer dereferences, buffer overflows, and data races.
 
-### Blockquote with attribution
+- **Concurrency**: Rust provides built-in concurrency primitives like threads and channels, making it easy to write concurrent programs without worrying about data races.
 
-> Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
+- **Performance**: Rust compiles to highly optimized machine code, resulting in fast and efficient programs.
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+- **Cargo**: Rust's package manager, Cargo, makes it simple to manage dependencies, build projects, and run tests.
 
-## Tables
+## Getting Started with Rust
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+To get started with Rust, you can follow these steps:
 
-| Name  | Age |
-| ----- | --- |
-| Bob   | 27  |
-| Alice | 23  |
+1. Install Rust by visiting the official website and following the installation instructions for your operating system.
 
-### Inline Markdown within tables
+2. Set up a new Rust project using Cargo by running the following command in your terminal:
 
-| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
-| ------------------------ | -------------------------- | ----------------------------------- | ------ |
-| _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
+    ```
+    cargo new my_project
+    ```
 
-## Code Blocks
+3. Navigate to the project directory:
 
-### Code block with backticks
+    ```
+    cd my_project
+    ```
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
-```
+4. Open the project in your favorite code editor and start writing Rust code!
 
-### Code block indented with four spaces
+## Conclusion
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
+Rust is a powerful programming language that combines the performance of low-level languages with the safety and expressiveness of high-level languages. It is gaining popularity among developers for its unique features and strong community support.
 
-### Code block with Hugo's internal highlight shortcode
-
-{{< highlight html >}}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-- List item
-- Another item
-- And another item
-
-### Nested list
-
-- Item
-  1. First Sub-item
-  2. Second Sub-item
-
-## Headings
-
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
-
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+If you're interested in learning more about Rust, I highly recommend checking out the official Rust documentation and trying out some Rust projects. Happy coding!
+'''

@@ -1,27 +1,75 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        {{ $styles := resources.Get "css/blogs.css" | resources.PostCSS }}
-        <link rel="stylesheet" href="{{ $styles.Permalink }}">
-       
-       
-    </head>
-<body>
-    
 
-  <div class="bg-white py-24 sm:py-32 lg:px-0">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="lg:text-center">
-        <h2 class="text-base font-semibold leading-7 text-indigo-600 sm:text-lg">{{ with .Params.categories }}{{ . }}{{ end }}</h2>
-        <p class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl lg:text-4xl">{{ .Title }}</p>
-        <div class="mt-6 text-lg leading-8 text-gray-600 space-x-2">
-          {{ .Content }}
+
+<link rel="stylesheet" href="{{.Site.Params.staticPath}}/css/single.css">
+
+
+
+
+
+
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">{{ .Title }}</h1>
+            <div class="text-center">
+              {{ .Params.author }} 
+              <small>|</small>
+              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+
+              {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
+              
+              {{ end }}
+            </div>
+          </div>
+          {{ if .Params.image }}
+          <div class="featured-image">
+           
+          </div>
+          {{ end }}
+          <article class="page-content  p-2">
+          {{ .Content | emojify }}
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          {{ if .Params.toc | default true}}
+          <aside class="toc">
+              <h5>
+                {{ .Site.Params.terms.toc | default "Table Of Contents" }}
+              </h5>
+              <div class="toc-content">
+                {{.TableOfContents}}
+              </div>
+          </aside>
+          {{ end }}
+
+          {{ if .Params.tags }}
+          <aside class="tags">
+            <h5>{{ .Site.Params.terms.tags | default "Tags" }}</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              {{range .Params.tags}}
+              <li class="list-inline-item"><a href="{{`tags` | absURL}}/{{.| urlize}}" target="_blank">{{.}}</a></li>
+              {{end}}
+            </ul>
+          </aside>
+          {{end}}
+
+          {{ if .Params.socialShare | default true }}
+         
+          {{ end }}
         </div>
       </div>
     </div>
-</div>
-    
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
+  </div>
 
-    
-</body>
-</html>
+</section>
+
