@@ -19,3 +19,12 @@ suffixes = ["css"]
 
 [outputs]
 home = ["HTML", "CSS"]
+
+[outputFormats]
+  [outputFormats.HTML]
+    mediaType = "text/html"
+    isHTML = true
+    isPlainText = false
+    notAlternative = true
+    noUgly = true
+    minify = true

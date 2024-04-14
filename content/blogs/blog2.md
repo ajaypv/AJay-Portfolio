@@ -1,10 +1,11 @@
 +++
-title = 'Blog2'
+title = 'Cloud Computing'
 date = 2024-04-05T12:52:34+05:30
 author = "AJay PV"
-categories = ["Web Development"]
+categories = ["Cloud"]
 role= "Dev"
-photo = "images/aj.jpg"
+photo = "images/aj.webp"
+
 +++
 
 Cloud computing is a revolutionary technology that has transformed the way businesses operate. It allows organizations to access and use computing resources, such as servers, storage, and databases, over the internet on a pay-as-you-go basis.

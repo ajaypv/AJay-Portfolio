@@ -3,28 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-10T12:36:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-04-10T12:36:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/blog7/</loc>
-    <lastmod>2024-04-10T12:35:47+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/bog5/</loc>
-    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/programming/</loc>
-    <lastmod>2024-04-09T18:04:16+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/bog4/</loc>
-    <lastmod>2024-04-09T18:04:10+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/bog3/</loc>
-    <lastmod>2024-04-09T18:03:37+05:30</lastmod>
+    <lastmod>2024-04-05T15:08:38+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/aerox/</loc>
     <lastmod>2024-04-05T15:08:38+05:30</lastmod>
@@ -32,18 +11,31 @@
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-04-05T15:08:38+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2024-04-05T12:52:34+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-04-05T12:52:34+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cloud/</loc>
+    <lastmod>2024-04-05T12:52:34+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/blog2/</loc>
     <lastmod>2024-04-05T12:52:34+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/web-development/</loc>
-    <lastmod>2024-04-05T12:52:34+05:30</lastmod>
+    <loc>http://localhost:1313/tags/example/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/markdown-syntax/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/blog1/</loc>
-    <lastmod>2024-04-05T12:42:42+05:30</lastmod>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/blog6/</loc>
-    <lastmod>2024-04-05T12:42:42+05:30</lastmod>
+    <loc>http://localhost:1313/tags/sample/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url>
 </urlset>
