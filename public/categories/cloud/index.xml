@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cloud on </title>
-    <link>http://localhost:1313/categories/cloud/</link>
-    <description>Recent content in Cloud on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 Apr 2024 12:52:34 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cloud Computing</title>
-      <link>http://localhost:1313/blogs/blog2/</link>
-      <pubDate>Fri, 05 Apr 2024 12:52:34 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/blog2/</guid>
-      <description>Cloud computing is a revolutionary technology that has transformed the way businesses operate. It allows organizations to access and use computing resources, such as servers, storage, and databases, over the internet on a pay-as-you-go basis.&#xA;One of the key benefits of cloud computing is its scalability. With cloud services, businesses can easily scale up or down their resources based on their needs, without the need for upfront investment in hardware or infrastructure.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud on</title><link>https://ajaypvnotion.web.app/categories/cloud/</link><description>Recent content in Cloud on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 05 Apr 2024 12:52:34 +0530</lastBuildDate><atom:link href="https://ajaypvnotion.web.app/categories/cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>Cloud Computing</title><link>https://ajaypvnotion.web.app/blogs/blog2/</link><pubDate>Fri, 05 Apr 2024 12:52:34 +0530</pubDate><guid>https://ajaypvnotion.web.app/blogs/blog2/</guid><description>Cloud computing is a revolutionary technology that has transformed the way businesses operate. It allows organizations to access and use computing resources, such as servers, storage, and databases, over the internet on a pay-as-you-go basis.
+One of the key benefits of cloud computing is its scalability. With cloud services, businesses can easily scale up or down their resources based on their needs, without the need for upfront investment in hardware or infrastructure.</description></item></channel></rss>
